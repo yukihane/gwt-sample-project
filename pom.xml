@@ -92,6 +92,7 @@
   </build>
   <modules>
     <module>gwt-sample-project-client</module>
+    <module>gwt-sample-project-client2</module>
     <module>gwt-sample-project-shared</module>
     <module>gwt-sample-project-server</module>
   </modules>
