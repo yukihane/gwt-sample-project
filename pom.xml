@@ -9,6 +9,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <codeserverPort>9876</codeserverPort>
   </properties>
 
   <dependencyManagement>
@@ -36,6 +37,11 @@
         <inherited>false</inherited>
         <configuration>
           <launcherDir>${project.build.directory}/gwt/launcherDir</launcherDir>
+            <codeserverArgs>
+                <arg>-port</arg>
+                <arg>${codeserverPort}</arg>
+            </codeserverArgs>
+
         </configuration>
       </plugin>
     </plugins>
