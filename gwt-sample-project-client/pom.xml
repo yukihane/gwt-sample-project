@@ -31,6 +31,13 @@
       <groupId>com.google.gwt</groupId>
       <artifactId>gwt-dev</artifactId>
     </dependency>
+    <!-- GXT -->
+    <dependency>
+      <groupId>com.sencha.gxt</groupId>
+      <artifactId>gxt</artifactId>
+      <version>3.1.1</version>
+    </dependency>
+
   </dependencies>
 
   <build>
