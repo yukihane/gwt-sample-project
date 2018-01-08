@@ -2,6 +2,9 @@
 <module>
   <inherits name="com.google.gwt.user.User" />
   <inherits name='com.sencha.gxt.ui.GXT' />
+  <inherits name='elemental2.core.Core' />
+  <inherits name='elemental2.dom.Dom' />
+  <inherits name='elemental2.webstorage.WebStorage' />
   <source path="" />
 
   <entry-point class="com.github.yukihane.gwt_sample_project.App" />
